@@ -3,8 +3,8 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Figtree } from "next/font/google";
 import SuperbaseProvider from "@/providers/SuperbaseProvider";
-import UserProvider from "@/hooks/useProvider";
 import ModalProvider from "@/providers/ModalProvider";
+import UserProvider from "@/providers/UserProvider";
 
 const font = Figtree({ subsets: ["latin"] });
 
