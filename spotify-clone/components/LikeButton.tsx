@@ -81,7 +81,6 @@ const LikeButton: React.FC<LikeButtonProps> = ({ songId }) => {
   return (
     <button
       className="
-        cursor-pointer 
         hover:opacity-75 
         transition
       "
